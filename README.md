@@ -11,11 +11,11 @@ Require the package on top of your script.
 
 
 Example Usage
-`
+```
 local result = sqlFetch("SELECT characters_names FROM accounts WHERE username='%s'", "Resmurf")
 local query = sqlExecute("UPDATE accounts SET characters='%s' WHERE username='%d'", JSON.encode(characters), accountId)
 local result = sqlFetchAll(characters)
-`
+```
 
 Will be detailed more indepth later on.
 
