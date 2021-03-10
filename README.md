@@ -3,12 +3,13 @@ A small wrapper made for Nanos World to help you execute queries.
 
 Requires module 
 
-- luasql
+`luasql`
 
 Require the package on top of your script.
 
 `Package:RequirePackage("mysql")`
 
+Edit your db config in ./server/index.lua
 
 Example Usage
 ```
